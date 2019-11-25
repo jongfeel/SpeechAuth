@@ -25,5 +25,5 @@ jobs:
         fi
 
     - name: Build
-      working-directory: ./server
+      working-directory: ./server/src/hello
       run: go build -v .
