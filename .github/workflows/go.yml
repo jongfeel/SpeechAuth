@@ -25,4 +25,5 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v /server
+      working-directory: ./server
+      run: go build -v .
